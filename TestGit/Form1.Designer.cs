@@ -30,6 +30,7 @@
         {
             button1 = new Button();
             label1 = new Label();
+            checkBox1 = new CheckBox();
             SuspendLayout();
             // 
             // button1
@@ -50,11 +51,22 @@
             label1.TabIndex = 1;
             label1.Text = "label1";
             // 
+            // checkBox1
+            // 
+            checkBox1.AutoSize = true;
+            checkBox1.Location = new Point(234, 149);
+            checkBox1.Name = "checkBox1";
+            checkBox1.Size = new Size(101, 24);
+            checkBox1.TabIndex = 2;
+            checkBox1.Text = "checkBox1";
+            checkBox1.UseVisualStyleBackColor = true;
+            // 
             // Form1
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
             AutoScaleMode = AutoScaleMode.Font;
             ClientSize = new Size(800, 450);
+            Controls.Add(checkBox1);
             Controls.Add(label1);
             Controls.Add(button1);
             Name = "Form1";
@@ -67,5 +79,6 @@
 
         private Button button1;
         private Label label1;
+        private CheckBox checkBox1;
     }
 }
